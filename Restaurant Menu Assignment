@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menus</title>
+<style>
+  /* Common styles */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .menu {
+    width: 400px;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    border-top: 2px solid #ccc;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Breakfast Menu -->
+<div class="menu" style="background-image: url('breakfast.jpg');">
+  <h1>Breakfast Menu</h1>
+  <ul>
+    <li>Eggs Benedict</li>
+    <li>Pancakes</li>
+    <li>French Toast</li>
+    <li>Omelette</li>
+    <li>Fruit Salad</li>
+    <li>Smoothies</li>
+  </ul>
+</div>
+
+<!-- Lunch Menu -->
+<div class="menu" style="background-image: url('lunch.jpg');">
+  <h1>Lunch Menu</h1>
+  <ul>
+    <li>Caesar Salad</li>
+    <li>Grilled Chicken Sandwich</li>
+    <li>Vegetable Soup</li>
+    <li>Pasta Primavera</li>
+    <li>Club Sandwich</li>
+    <li>Fruit Platter</li>
+  </ul>
+</div>
+
+<!-- Dinner Menu -->
+<div class="menu" style="background-image: url('dinner.jpg');">
+  <h1>Dinner Menu</h1>
+  <ul>
+    <li>Filet Mignon</li>
+    <li>Salmon with Lemon Butter Sauce</li>
+    <li>Vegetarian Stir Fry</li>
+    <li>Roast Chicken</li>
+    <li>Shrimp Scampi</li>
+    <li>Chocolate Lava Cake</li>
+  </ul>
+</div>
+
+</body>
+</html>
